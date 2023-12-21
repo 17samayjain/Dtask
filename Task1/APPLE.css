@@ -1,0 +1,57 @@
+/* style.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+#product-details {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+#product-details img {
+    max-width: 100%;
+    height: auto;
+}
+
+#pricing {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 50px;
+}
+
+.price-option {
+    border: 2px solid #333;
+    padding: 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#contact {
+    text-align: center;
+    padding: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
